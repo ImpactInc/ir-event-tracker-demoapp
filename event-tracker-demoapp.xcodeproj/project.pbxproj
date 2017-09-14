@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0800561F69EA1D00033032 /* libEventTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0800531F69DF3900033032 /* libEventTracker.a */; };
+		BD0800631F69FDC900033032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0800601F69FDC900033032 /* Assets.xcassets */; };
+		BD0800641F69FDC900033032 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD0800611F69FDC900033032 /* Info.plist */; };
+		BD0800651F69FDC900033032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0800621F69FDC900033032 /* main.m */; };
+		BD08006B1F69FE1C00033032 /* irAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0800671F69FE1C00033032 /* irAppDelegate.m */; };
+		BD08006C1F69FE1C00033032 /* irViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0800691F69FE1C00033032 /* irViewController_iPhone.xib */; };
+		BD08006D1F69FE1C00033032 /* irViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD08006A1F69FE1C00033032 /* irViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD0800311F69DBAC00033032 /* event-tracker-demoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "event-tracker-demoapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0800531F69DF3900033032 /* libEventTracker.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEventTracker.a; path = "Pods/ir-event-tracker/EventTracker/libEventTracker.a"; sourceTree = "<group>"; };
+		BD0800601F69FDC900033032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD0800611F69FDC900033032 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0800621F69FDC900033032 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD0800661F69FE1C00033032 /* irAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irAppDelegate.h; sourceTree = "<group>"; };
+		BD0800671F69FE1C00033032 /* irAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = irAppDelegate.m; sourceTree = "<group>"; };
+		BD0800681F69FE1C00033032 /* irViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irViewController.h; sourceTree = "<group>"; };
+		BD0800691F69FE1C00033032 /* irViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = irViewController_iPhone.xib; sourceTree = "<group>"; };
+		BD08006A1F69FE1C00033032 /* irViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = irViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD08002E1F69DBAC00033032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0800561F69EA1D00033032 /* libEventTracker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD0800281F69DBAC00033032 = {
+			isa = PBXGroup;
+			children = (
+				BD0800531F69DF3900033032 /* libEventTracker.a */,
+				BD0800331F69DBAC00033032 /* event-tracker-demoapp */,
+				BD0800321F69DBAC00033032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD0800321F69DBAC00033032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD0800311F69DBAC00033032 /* event-tracker-demoapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD0800331F69DBAC00033032 /* event-tracker-demoapp */ = {
+			isa = PBXGroup;
+			children = (
+				BD0800661F69FE1C00033032 /* irAppDelegate.h */,
+				BD0800671F69FE1C00033032 /* irAppDelegate.m */,
+				BD0800681F69FE1C00033032 /* irViewController.h */,
+				BD0800691F69FE1C00033032 /* irViewController_iPhone.xib */,
+				BD08006A1F69FE1C00033032 /* irViewController.m */,
+				BD0800601F69FDC900033032 /* Assets.xcassets */,
+				BD0800611F69FDC900033032 /* Info.plist */,
+				BD0800621F69FDC900033032 /* main.m */,
+			);
+			path = "event-tracker-demoapp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD0800301F69DBAC00033032 /* event-tracker-demoapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0800481F69DBAC00033032 /* Build configuration list for PBXNativeTarget "event-tracker-demoapp" */;
+			buildPhases = (
+				BD08002D1F69DBAC00033032 /* Sources */,
+				BD08002E1F69DBAC00033032 /* Frameworks */,
+				BD08002F1F69DBAC00033032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "event-tracker-demoapp";
+			productName = "event-tracker-demoapp";
+			productReference = BD0800311F69DBAC00033032 /* event-tracker-demoapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD0800291F69DBAC00033032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Impact Radius Inc.";
+				TargetAttributes = {
+					BD0800301F69DBAC00033032 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 43U8DRW74X;
+					};
+				};
+			};
+			buildConfigurationList = BD08002C1F69DBAC00033032 /* Build configuration list for PBXProject "event-tracker-demoapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD0800281F69DBAC00033032;
+			productRefGroup = BD0800321F69DBAC00033032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD0800301F69DBAC00033032 /* event-tracker-demoapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD08002F1F69DBAC00033032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0800631F69FDC900033032 /* Assets.xcassets in Resources */,
+				BD0800641F69FDC900033032 /* Info.plist in Resources */,
+				BD08006C1F69FE1C00033032 /* irViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD08002D1F69DBAC00033032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0800651F69FDC900033032 /* main.m in Sources */,
+				BD08006D1F69FE1C00033032 /* irViewController.m in Sources */,
+				BD08006B1F69FE1C00033032 /* irAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD0800461F69DBAC00033032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD0800471F69DBAC00033032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD0800491F69DBAC00033032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "Pods/ir-event-tracker/EventTracker/include";
+				INFOPLIST_FILE = "event-tracker-demoapp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/ir-event-tracker/EventTracker",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.event-tracker-demoapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BD08004A1F69DBAC00033032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "Pods/ir-event-tracker/EventTracker/include";
+				INFOPLIST_FILE = "event-tracker-demoapp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/ir-event-tracker/EventTracker",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.event-tracker-demoapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD08002C1F69DBAC00033032 /* Build configuration list for PBXProject "event-tracker-demoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0800461F69DBAC00033032 /* Debug */,
+				BD0800471F69DBAC00033032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0800481F69DBAC00033032 /* Build configuration list for PBXNativeTarget "event-tracker-demoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0800491F69DBAC00033032 /* Debug */,
+				BD08004A1F69DBAC00033032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD0800291F69DBAC00033032 /* Project object */;
+}
