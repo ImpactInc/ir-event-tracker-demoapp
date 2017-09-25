@@ -2,14 +2,14 @@
 //  irAppDelegate.m
 //  DemoApplication
 //
-//  Created by Tyler Thomas on 1/10/13.
+//  Created by Tyler Thomas
 //  Copyright (c) 2017 Impact Radius. All rights reserved.
 //
 
 #import "irAppDelegate.h"
 #import "irViewController.h"
-#import "EventTracker.h"
-#import "Event.h"
+#import <EventTracker.h>
+#import <Event.h>
 
 @implementation irAppDelegate
 
