@@ -15,23 +15,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Instantiate EventTracker Singleton
-    EventTracker *tracker = [EventTracker sharedManager];
-    
-    // Initialize Event Tracker with ActionTrackerId, username, and password provided by Impact Radius.
-    [tracker initializeWithAppId:@"YOUR APP ID"
-                      accountSID:@"YOUR AUTHORIZATION TOKEN"
-              authorizationToken:@"YOUR ACCOUNT SID"];
-    
-    // Turn on debug to receive NSLog feedback. Turn off before releasing app to store.
-    [tracker setDebug:YES];
-    [tracker trackSession];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.viewController = [[irViewController alloc] initWithNibName:@"irViewController_iPhone" bundle:nil];
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
-    return YES;
+  // Instantiate EventTracker Singleton
+  EventTracker *tracker = [EventTracker sharedManager];
+  
+  // Initialize Event Tracker with ActionTrackerId, username, and password provided by Impact Radius.
+  [tracker initializeWithAppId:@"YOUR APP ID"
+                    accountSID:@"YOUR AUTHORIZATION TOKEN"
+            authorizationToken:@"YOUR ACCOUNT SID"];
+  
+  // Turn on debug to receive NSLog feedback. Turn off before releasing app to store.
+  [tracker setDebug:YES];
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  self.viewController = [[irViewController alloc] initWithNibName:@"irViewController_iPhone" bundle:nil];
+  self.window.rootViewController = self.viewController;
+  [self.window makeKeyAndVisible];
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
